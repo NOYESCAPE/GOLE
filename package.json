@@ -2,7 +2,9 @@
   "name": "gole",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start-sb": "nx run gole:storybook"
+  },
   "private": true,
   "dependencies": {
     "@nx/next": "16.1.4",
