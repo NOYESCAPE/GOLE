@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start-sb": "nx run gole:storybook"
+    "start-sb": "nx run gole:storybook",
+    "start-sv": "nx run server:serve"
   },
   "private": true,
   "dependencies": {
