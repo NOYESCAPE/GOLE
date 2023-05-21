@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start-sb": "nx run gole:storybook",
+    "test": "nx run gole:test",
     "start-sv": "nx run server:serve"
   },
   "private": true,
