@@ -41,6 +41,7 @@
     "@storybook/core-server": "^7.0.9",
     "@storybook/nextjs": "^7.0.9",
     "@storybook/test-runner": "^0.7.2",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "14.0.0",
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.2",
