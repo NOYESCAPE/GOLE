@@ -3,10 +3,11 @@ import type { StorybookConfig } from '@storybook/nextjs';
 const config: StorybookConfig = {
   stories: ['../components/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
   addons: ['@storybook/addon-essentials'],
+  staticDirs: ['../public'],
   framework: {
     name: '@storybook/nextjs',
-    options: {},
-  },
+    options: {}
+  }
 };
 
 export default config;
